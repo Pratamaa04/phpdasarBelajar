@@ -1,5 +1,5 @@
 <?php 
-require_once '../domain_object/node_role.php';
+require_once 'domain_object/node_role.php';
 
 class modelRole
 {
