@@ -14,8 +14,8 @@ echo "role status: ".$role->role_status."<br><br>";
 }
 //add new role
 echo "== testing add new role =="."<br>";
-$obj_Role->addRole (role_name: "new role", role_desc: "testing new role", role_status: 0);
-$obj_Role->addRole(role_name: "very new role", role_desc: "testing new new role", role_status: 1);
+$obj_Role->addRole ("new role", "testing new role", 0);
+$obj_Role->addRole("very new role", "testing new new role", 1);
 foreach ($obj_Role->getAllRoles() as $role) {
 echo "role id: ".$role->role_id."<br>";
 echo "role name: ".$role->role_name."<br>";
